@@ -6,8 +6,8 @@
         "agencies",
         "have api"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-20",
+    "modified": "2019-12-20",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/c3-iot\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -21,17 +21,21 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/c3-iot-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/c3-iot\/master\/c3-iot-openapi.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/c3-iot-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/c3-iot\/master\/c3-iot-postman-collection.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Crunchbase",
             "url": "https:\/\/crunchbase.com\/organization\/c3"
